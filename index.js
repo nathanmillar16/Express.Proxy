@@ -21,5 +21,5 @@ app.get("/*", function (req, res) {
 });
 
 app.listen(listeningPort, () => {
-  console.log(`ESI server started at http://localhost:${listeningPort}`);
+  console.log(`Siteurl server started at http://localhost:${listeningPort}`);
 });
